@@ -1,0 +1,113 @@
+
+.brand_name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Table styles */
+table {
+  margin-top:20px;
+  margin-left:70px;table {
+    border-collapse: collapse;
+    margin: 40px;
+    margin-left: 60px;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    border: 0.1px solid;
+    border-color: #bababa;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    color: black;
+  }
+  
+  table thead tr {
+    background: linear-gradient(135deg, #ffebee, #f8bbd0);
+    color: #000000;
+    text-align: left;
+  }
+  
+  table th,
+  table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+    color: #000000;
+  }
+  
+  table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    color: #000000;
+  }
+  
+  table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  width: 93%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffebee, #f8bbd0);
+  color: rgb(0, 0, 0);
+}
+
+thead th {
+  padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+td, th {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Button styles */
+.process-button {
+  position:fixed;
+  bottom: 40px;
+  right: 60px;
+  background-color: #e91e63; /* Pink */
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.process-button:hover {
+  background-color: #d81b60; /* Darker pink */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  .process-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+.logo {
+  margin-top: -10px;
+  height:170px;
+}

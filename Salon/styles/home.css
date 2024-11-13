@@ -1,0 +1,104 @@
+.brand_name {
+  font-weight: bold; /* Make brand name bold */
+}
+.title {
+  font-size: 1.5em; /* Larger font size */
+  color: #d5006d; /* Darker pink color */
+  text-align: center; /* Center the text */
+  margin: 20px 0; /* Margin above and below */
+  font-weight: bold; /* Make the text bold */
+}
+
+.content {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  margin-bottom: 20px; /* Space below the buttons container */
+}
+
+.buttons button {
+  background-color: #ff6f91; /* Button background color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Padding inside buttons */
+  font-size: 1em; /* Button font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition effects */
+}
+
+.buttons button:hover {
+  background-color: #d5006d; /* Darker pink on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.services-menu {
+  padding: 20px;
+  padding-top: 0px;
+  margin-top: 20px;
+  border: 2px solid #ffc4d2; /* Border matching header */
+  border-radius: 10px; /* Rounded corners */
+  background: linear-gradient(135deg, #ffebee, #f8bbd0);
+  width: 70%;
+  height:430px;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Space items evenly */
+}
+
+.services-menu h2 {
+  text-align: center; /* Centered heading */
+  color: #d5006d; /* Darker pink for the heading */
+  margin-bottom: 15px; /* Space below heading */
+  width: 100%; /* Ensure heading takes full width */
+}
+
+.services-menu ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  width: 100%; /* Full width for the list */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Space items evenly */
+}
+
+.services-menu li {
+  background-color: white; /* White background for each service */
+  border: 1px solid #ff6f91; /* Pink border for service items */
+  border-radius: 5px; /* Slightly rounded corners */
+  padding: 15px; /* Padding inside list items */
+  margin-bottom: 10px; /* Space between items */
+  transition: transform 0.2s; /* Smooth transition effect */
+  width: calc(33.33% - 10px); /* Three columns layout */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+.services-menu li:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Shadow on hover */
+}
+
+.services-menu strong {
+  display: block; /* Make service name a block element */
+  font-size: 1.2em; /* Larger font size for service name */
+  color: #ff3366; /* Different pink for service name */
+  margin-bottom: 5px; /* Space below service name */
+}
+
+.services-menu p {
+  margin: 5px 0; /* Margin for price and time */
+  font-size: 0.9em; /* Smaller font size */
+  color: #555; /* Dark gray for price and time */
+}
+
+.logo {
+  margin-top: -10px;
+  height:180px;
+}
